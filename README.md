@@ -1,17 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Stock Market Tracker
+
+This is a [Next.js](https://nextjs.org/) project that demonstrates a simple stock market tracker application. It allows users to search for any stock symbol and view its price history over the last 20 years in a graph.
+
+## Features
+
+- Search for stocks using their symbol (e.g., AAPL for Apple Inc.)
+- Display stock price history in a line chart
+- Dark mode support with a toggle button
+- Responsive design for various screen sizes
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
 
 ```bash
-npm run dev
+npm install
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+yarn install
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
